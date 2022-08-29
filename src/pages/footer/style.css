@@ -1,5 +1,5 @@
-@font-face { font-family: Apple; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Apple II NEG Pro.otf');}
-@font-face { font-family: AppleClean; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Apple II Pro.otf');}
+@font-face { font-family: Apple; src: url('../../assets/Apple\ II\ NEG\ Pro.otf');}
+@font-face { font-family: AppleClean; src: url('../../assets/Apple\ II\ Pro.otf');}
 
 .footerBox{
     margin: 70px 30px 0px;

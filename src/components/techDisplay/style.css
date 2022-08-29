@@ -1,5 +1,6 @@
 
-@font-face { font-family: Apple; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Apple II NEG Pro.otf');}
+@font-face { font-family: Apple; src: url('../../assets/Apple\ II\ NEG\ Pro.otf');}
+@font-face { font-family: AppleClean; src: url('../../assets/Apple\ II\ Pro.otf');}
 
 .TechSection{
     width: 500px;
