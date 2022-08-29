@@ -1,0 +1,77 @@
+@font-face { font-family: Delicious; font-weight: bold; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Petyka - Retro Computer___SHORT.ttf');}
+@font-face { font-family: Apple; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Apple II NEG Pro.otf');}
+@font-face { font-family: AppleClean; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Apple II Pro.otf');}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.arrow{
+    align-self: center;
+ font-family: Apple;
+ color: #05d9e8;
+ font-size: 20px;
+}
+
+.arrow:hover{
+    animation: blinker 0.4s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+img{
+    width: 41px;
+    height: 43px;
+    flex-wrap: wrap;
+}
+
+.repoCardBox{
+    width: 100%;
+
+    margin: 10px;
+    padding: 5px;
+
+    outline: 0.5px solid #00fffc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cardTexts{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.clickMe{
+    color:#05d9e8;
+    font-family: AppleClean;
+    font-size: 10px;
+    animation: blinker 0.8s linear infinite;  
+    align-self:flex-end;
+}
+
+.clickMe:hover{
+    color: #133e7c;
+    cursor: pointer;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.repoTitle{
+    text-align: right;
+    font-family: AppleClean;
+    color:#05d9e8;
+    font-size: 12px;
+}

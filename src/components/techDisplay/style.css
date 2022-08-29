@@ -1,0 +1,36 @@
+@font-face { font-family: Delicious; font-weight: bold; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Petyka - Retro Computer___SHORT.ttf');}
+@font-face { font-family: Apple; src: url('/home/aggie/aula/portfolio/portfolio/src/assets/Apple II NEG Pro.otf');}
+
+.TechSection{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+
+
+    border-bottom: 3px solid #05d9e8;
+    border-top: 8px solid #05d9e8;
+
+    margin-left: 20px;
+
+
+}
+
+.techsTitle{
+  font-size: 20px;
+    font-family: Apple;
+    color: #05d9e8;
+
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.techsTitle:hover{
+  animation: blinker 0.4s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+  }

@@ -1,0 +1,40 @@
+.cardSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+
+    /* display: table; */
+    flex-wrap: wrap;
+}
+
+img{
+    width: 50px;
+    height: 43px;
+    flex-wrap: wrap;
+}
+
+.techCardBox{
+    /* width: 140px; */
+
+    margin: 6px;
+    padding: 15px;
+    padding-bottom: 15px;
+
+    outline: 0.5px solid #00fffc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.techCardBox:hover{
+    background-color: #133e7c;
+}
+
+.techTitle{
+    font-family: 'Oswald', sans-serif;
+    font-style: oblique;
+    color:#0abdc6;
+    font-size: 20px;
+}
